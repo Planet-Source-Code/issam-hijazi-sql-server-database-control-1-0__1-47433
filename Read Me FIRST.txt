@@ -1,0 +1,77 @@
+This is SQL Server Database Control 1.0
+
+Hey all,
+
+Futures Included:
+
+1. Login in to MS SQL Server
+2. Backup, repair and restore databases
+3. Upload databases and delete databases
+4. Control the server (Start, Stop, Pause and Continue)
+5. Check Server Status (Started, Stoped or Paused)
+5. Check connection if active to server or not
+6. List databases in the MS SQL Server, list teables and fields in table
+7. Open connection with database and SQL statments (like select)
+8. Save any file to Binary Field in table (like upload picture to table)
+9. Display picture saved in database field to object (like Picture control)
+10. Save a file from database field (like picture or txt files) to harddisk
+11. Check if EOF or BOF
+12. Find any record easy
+13. Add, Edit, Update and Delete records
+14. Bind the database fields to VB Objects (like Text Box or Label)
+15. Bind the database table to MSFLEXGRID32 control
+16. Handle All errors easy (no visible run time or desgin time errors), all hadled by name & num.
+
+Its the easiest, coolest code ever seen! You can learn even how to upload and download files from MS SQL Server! Its learning control and can be used for your projects as well!
+
+I hope you find it useful and like it!
+
+I programmed this control because I needed it some day,
+and search the net and found nothing! So, I want to
+help you out there because I know your feelings! :)
+
+The SQL Server controlling was never easy till the little
+control borned! lol!
+
+All I want from you is to e-mail me telling me that you find
+this control useful and easy for use & rate it on the web.
+ So, plz help me as I helped you. Its 100% free to you in all 
+areas (edu, com..) distribute it as you want.
+
+If you have any question, suggestion, request or bug reprot
+pease contact me. The good thing in this control is the powerful 
+error handling system, by description and number!
+
+to run this control 100% correct, these file must be avilable on the wanted computer and registerd, read below for more information:
+msado15.dll (usually installed by VB)
+MSBIND.DLL (usually installed by VB)
+MSFLXGRD.OCX (usually installed by VB)
+sqldmo.dll & sqldmo.rll (togother in the same folder, usually installed by MS SQL Server 2000)
+sqlSDBC.ocx (which is the wanted control, it must be added 2 ur project design time & run time)
+
+All these file must be registered by regsvr32 command control!! Note: the file sqldmo.rll can't be registered but it reqired to register the sqldmo.dll!
+
+You will find in the zip file the conntrol code project, you just have to tun the projet and select file the Make sqlSDBC.ocx and use the control in you project!! or if you like to learn, go on and read the code, it contain usful informatio like how to list table, fields, download and upload files, backup, all futures you see above!
+
+I would include the required files listed above, but the web site tell me its too large and also they delete and .dll or .ocx or .exe files auto!
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' Here is little about me and my contact information:    '
+'							 '
+' Issam Hijazi						 '
+' Date of birh: 30 Aug 1987				 '
+' Amman - Jordan					 '
+' Telephone Number: + 962 6 5668331			 '
+' hajism87@hotmail.com or issam_hijazi@yahoo.com	 '
+' I hold now MCSE & CCNA, I luv computer and networking, '
+' and designing, and troubleshooting (hard & soft), all  '
+' things about computer! if you experience any network,  '
+' widnwos 95, 98, ME, 2000 Pro & Server, XP, 2003 Server,'
+' or any other program problem and want soulution or  	 '
+' learn how it works or certification help just contact  '
+'  me. I love to help you out there FREE! ;)		 '						'							 '	 
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+By the way, if you have any VB problem in your VB project, or wanna learn more and be good programmer, or want a OCX or Dll control to simplify your programming or want example project, just contact me and don't wait, I'll reply when I check my e-mail out!!
+
+Have fun and enjoy your programming!
